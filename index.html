@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="App Memory Game"
+      content="Web site created like a portfolio David Vazquez con javascript, HTML y CSS"
+    />
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <title>Juego de Memoria</title>
+</head>
+<body>
+    <main>
+        <section class="section1">
+            <h1>
+                Juego de Memoria
+            </h1>
+            <table>
+                <tr>
+                    <td><button type="button" id="0" onClick="destapar(0)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="1" onClick="destapar(1)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="2" onClick="destapar(2)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="3" onClick="destapar(3)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="4" onClick="destapar(4)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="5" onClick="destapar(5)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="6" onClick="destapar(6)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="7" onClick="destapar(7)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="8" onClick="destapar(8)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="9" onClick="destapar(9)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="10" onClick="destapar(10)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="11" onClick="destapar(11)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="12" onClick="destapar(12)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="13" onClick="destapar(13)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="14" onClick="destapar(14)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                    <td><button type="button" id="15" onClick="destapar(15)"> <img src="./images/card-game.png" alt="card game"></button></td>
+                </tr>
+                
+            </table>
+        </section>
+        <section class="section2">
+            <h2 id="aciertos" class="estadisticas">Aciertos: 0</h2>
+            <h2 id="t.restante" class="estadisticas">Tiempo: 30 segundos</h2>
+            <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
+            <button type="button" id="reload" class="reload">Click para reiniciar</button>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Juego programado por: <a href="https://www.linkedin.com/in/davidvazgon/" target="_blank" rel="noopener">DAVG</a>
+        </p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
