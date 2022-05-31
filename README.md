@@ -34,12 +34,13 @@ Ve al siguiente enlace: [:Link:](https://juego-de-memoria-omega.vercel.app/)
 
 > Algunos de los comentarios probablemente no tengan mucho sentido pero es porque tambien estoy probando la herramienta de ***Mark Down***
 
-:::info
+
 :pushpin: Want to learn more? ➜ [HackMD Tutorials](https://hackmd.io/c/tutorials) 
 :::
 
 ---
 
+### Contact
 
 <i class="fa fa-share-alt"></i> **Visit and share my profile if you have a job offer:** [Click aqui](https://www.linkedin.com/in/davidvazgon/) 
 
