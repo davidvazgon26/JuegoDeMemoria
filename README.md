@@ -35,18 +35,20 @@ Ve al siguiente enlace: [:Link:](https://juego-de-memoria-omega.vercel.app/)
 > Algunos de los comentarios probablemente no tengan mucho sentido pero es porque tambien estoy probando la herramienta de ***Mark Down***
 
 
-:pushpin: Want to learn more? ➜ [HackMD Tutorials](https://hackmd.io/c/tutorials) 
+:pushpin: Quieres saber más? ➜ [HackMD Tutorials](https://hackmd.io/c/tutorials) 
+
+puedes usar el editor en linea desde aqui: [link](ackmd.io)
 :::
 
 ---
 
 ### Contact
 
-<i class="fa fa-share-alt"></i> **Visit and share my profile if you have a job offer:** [Click aqui](https://www.linkedin.com/in/davidvazgon/) 
+<i class="fa fa-share-alt"></i> **Visit and share my profile if you have a job offer:** [Click here](https://www.linkedin.com/in/davidvazgon/) 
 
 
 
-- Code block (JS) with color and line numbers：
+- Code block (JS) ：
 ```javascript=16
 let tarjetasDestapadas = 0;
 let tarjeta1 = null;

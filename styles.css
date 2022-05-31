@@ -1,15 +1,27 @@
 body {
-    background: rgb(63, 94, 251);
-    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 7, 107, 1) 100%);
+    background: #000046;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1CB5E0, #000046);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1CB5E0, #000046);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     font-family: sans-serif;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 main {
-    width: 730px;
-    margin: 100px 50px;
+    width: 100%;
+    height:100vh;
+    /* margin: 100px; */
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .section1 {
@@ -77,5 +89,77 @@ img {
 }
 
 .reload:hover {
-    background-color: rgb(145, 28, 87)
+    background-color: #22225a;
+}
+
+footer {
+    background-color: #22225a;
+    width: 100%;
+    /* border-top-left-radius: 5%; */
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    /* border-top-right-radius: 10%; */
+}
+
+@media screen and (max-width: 770px) {
+
+    body{
+        width: 100%;
+    }
+
+    main {
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .section1 {
+        padding: 0 10px 10px 10px;
+        border-radius: 8px;
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .section2 {
+
+        display: flex;
+        width: 82vw;
+        height: 18vh;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-left: 0vw;
+    }
+    
+    .estadisticas {
+        border: 1px solid white;
+        width:20vw;
+        height: 12vh;
+        font-size: 2.03vw;
+        margin-right: 5px;
+        padding: 2vw;
+    }
+    
+    .reload {
+        font-size: 1.8vw;
+        border-radius: 14px;
+        width: 14vw;
+        height: 10vh;
+        margin-bottom: 0;
+        text-align: center;
+        margin-left: 2vw;
+        padding: 0.5vw;
+
+    }
+
+
+    button {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    td{
+        width: 20vw
+    }
+     
 }
